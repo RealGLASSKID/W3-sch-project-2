@@ -1,0 +1,168 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    
+    body {
+        background: #f1f1f1;
+        line-height: 1.5;
+    }
+    
+    .container {
+        display: flex;
+        padding: 15px 20px;
+    }
+    
+    .left {
+        height: 100%;
+        background: #fff;
+        box-shadow: 0 10px 10px rgb(172, 172, 172);
+        overflow: hidden;
+        width: 33.33333%;
+    }
+    
+    .box-img {
+        position: relative;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .section {
+        padding: 0.15px 16px;
+    }
+    
+    i {
+        color: #009688;
+        /* font-size: 20px; */
+        margin-right: 10px;
+    }
+    
+    .left h2 {
+        position: absolute;
+        top: 14rem;
+        left: 15px;
+        font-size: 30PX;
+        font-weight: 200;
+    }
+    
+    .left p {
+        color: #555;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    
+    .bar {
+        background: #ddd;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .progress {
+        background: #009688;
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+    
+    .right {
+        width: 66.66666%;
+        padding: 0 8px;
+        height: 100%;
+    }
+    
+    .card {
+        background: #fff;
+        padding: 15px 20px;
+        margin: 0 0 16px;
+        box-shadow: 0 10px 10px rgb(172, 172, 172);
+    }
+    
+    .card-2{
+        box-shadow: 0 10px 10px rgb(172, 172, 172);
+        background: #fff;
+        padding: 15px 16px 20px 16px;
+    }
+    
+    .card h2 {
+        color: #666;
+        margin-bottom: 20px;
+        padding: 0  16px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    
+    .card-2 h2 {
+        color: #666;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        padding: 16px 0;
+    }
+    
+    .card h2 i, .card-2 h2 i {
+        color: #009688;
+        margin-right: 10px;
+        font-size: larger;
+    }
+
+    .card h4, .card-2 h4 {
+        color: #666;
+    }
+    
+    .wit {
+        max-width: 97%;
+    }
+    .date {
+        color: #009688;
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    .badge {
+        background: #009688;
+        color: white;
+        padding: 3px 8px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    hr {
+        border: 0;
+        border-top: 1px solid #eee;
+        margin: 20px 0;
+    }
+    
+    footer {
+        background: #009688;
+        color: white;
+        text-align: center;
+        padding: 0.15px 16px;
+        margin: 16px 0 0;
+    }
+    footer p {
+        margin: 15px 0;
+     }
+
+    .media {
+    display: flex;
+    flex-direction: row;
+    /* gap: -15px; */
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    }
+    footer a {
+        color: #fff;
+    }
+    /* @media (max-width:1440px) {
+.box-img{
+  position: absolute;
+}
+} */
